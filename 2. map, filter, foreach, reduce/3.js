@@ -2,8 +2,6 @@
 
 const arr = [2, 4, 3, 5, 7, 9];
 
-arr.forEach(element => {
-   element * 2;
-})
+arr.forEach(element => element * 2)
 
 console.log(arr);
