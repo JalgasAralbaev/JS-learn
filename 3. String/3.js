@@ -4,9 +4,9 @@
 let str = 'a N n a';
 let deleteSpaces = str.split(' ').join('');
 
-function checkPalindrome(str) {
+function checkPalindrome() {
    deleteSpaces = deleteSpaces.toLowerCase();
    return deleteSpaces === deleteSpaces.split(' ').reverse().join('');
 }
 
-console.log(palindrome(str));
+console.log(checkPalindrome());

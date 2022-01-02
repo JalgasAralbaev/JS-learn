@@ -2,7 +2,7 @@
 //т.е.начинается ли оно с английской буквы в любом регистре или знака подчеркивания
 //и не содержит других символов, кроме букв английского алфавита(в любом регистре), цифр и знака подчеркивания.
 
-let str = '?eLLo';
+let str = 'HeLLo';
 
 function checkString(str) {
    let id, firstLetter, code;
@@ -26,5 +26,3 @@ function checkString(str) {
 }
 
 console.log(checkString(str));
-
-console.log('0'.codePointAt());

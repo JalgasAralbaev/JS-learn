@@ -3,12 +3,15 @@
 //если дана строка "data 48 call 9 read13 blank0a", то в массиве должны оказаться числа 48, 9, 13 и 0.
 
 let str = 'data 48 call 9 read13 blank0a';
-let num = [];
+let Num = [];
 let str1;
-str1 = str.split(/[A-Za-z]+/)
+str1 = str.split(/[A-Za-z]+/);
 
-arrNum = str.split(/[A-Za-z]+/).filter(function (num) {
-   return num !== '';
+str1.forEach(element => {
+   if (element == typeof(String)) {
+      Num.push(element);
+   }
 });
 
-console.log(arrNum.split('').join(''));
+console.log(typeof (str[1]))
+console.log(Num);

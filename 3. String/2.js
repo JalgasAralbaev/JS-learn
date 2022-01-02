@@ -7,7 +7,7 @@ let strLen = str.length;
 let count = 5;
 let words = [];
 
-for (var i = 0; i < count; i++) {
+for (let i = 0; i < count; i++) {
    let word = '';
    let length = random(5, 10);
 
@@ -22,6 +22,6 @@ for (var i = 0; i < count; i++) {
 console.log(words);
 
 function random(min, max) {
-   var rand = min + Math.random() * (max - min + 1);
+   let rand = min + Math.random() * (max - min + 1);
    return Math.round(rand);
 }
