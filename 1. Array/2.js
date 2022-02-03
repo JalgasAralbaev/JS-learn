@@ -10,3 +10,4 @@ for (let i = 0; i < arr2.length; i++) {
 
 console.log(arr1);
 
+

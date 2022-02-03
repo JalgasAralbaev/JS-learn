@@ -3,6 +3,8 @@
 let arr = [];
 let arr2 = [];
 let sum = 0;
+let sum = a + b;
+
 
 for (let i = 0; i < 50; i++) {
    arr[i] = random(-50, 49);
