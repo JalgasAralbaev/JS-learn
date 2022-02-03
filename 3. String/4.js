@@ -12,11 +12,11 @@ function getUnique(str) {
 
    for (let i = 1; i < str.length; i++) {
       check++;
-      if (check == str.length - 1) {
+      if (check === str.length - 1) {
          j++;
          check = 0;
       }
-      if (str[j] == str[i]) {
+      if (str[j] === str[i]) {
          //str.splice(i, i);
          arr.push(i);
       }
