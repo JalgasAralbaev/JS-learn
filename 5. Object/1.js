@@ -34,7 +34,7 @@ const hero = {
         }
     },
     say: function () {
-        let random = 1 + Math.random() * (4 - 1);
+        let random = 1 + Math.random() * (8 - 1);
         random = Math.round(random);
         switch (random) {
             case 1:
@@ -45,7 +45,27 @@ const hero = {
                 return  console.log('Ты пожалеешь, что увидел меня.');
             case 4:
                 return console.log('Тьма из глубин.');
+            case 5:
+                return console.log('Не будешь мешать, останешься цел...наверное.');
+            case 6:
+                return console.log('Как рыба в воде.');
+            case 7:
+                return console.log('Всё идёт по плану.');
+            case 8:
+                return console.log('Что упало - то пропало.');
         }
     },
+    lvlUp: function (lvl) {
+        this.lvl += lvl;
+        this.hp += lvl * 38;
+        this.mp += lvl * 26;
+        this.damage += lvl * 2;
+    },
 }
-hero.say();
+hero.say()
+hero.lvlUp(10)
+console.log(hero.damage)
+
+let man = 10;
+let result = man + 10;
+
