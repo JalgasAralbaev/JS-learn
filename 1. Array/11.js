@@ -13,7 +13,7 @@ for (let i = 0; i < arrRandom.length; i++) {
    sum += arrRandom[i];
    
    if (i >= 1) {
-      if (sum % 2 == 1) {
+      if (sum % 2 === 1) {
          sum -= arrRandom[i];
          arrRandom.splice(i, i);
       }

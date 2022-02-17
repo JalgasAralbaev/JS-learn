@@ -14,7 +14,7 @@ for (let i = 0; i < arr.length; i++) {
 
 
 function getArif(arr) {
-   var sum = 0;
+   let sum = 0;
 
    for (let i = 0; i < arr.length; i++) {
       sum += arr[i];

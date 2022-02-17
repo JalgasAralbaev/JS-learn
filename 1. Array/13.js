@@ -4,14 +4,14 @@ let x = 5;
 let arr = [1, 5, 3, 4, 2, 1, 3, 4];
 
 for (let i = 0; i < (arr.length / 2); i++) {
-   if (arr[i] == x) {
+   if (arr[i] === x) {
       console.log('Номер первого элемента равно ' + x + ' в первой половине ' + i);
       break;
    }
 }
 
-for (var i = (arr.length / 2); i < arr.length; i++) {
-   if (arr[i] == x) {
+for (let i = (arr.length / 2); i < arr.length; i++) {
+   if (arr[i] === x) {
       console.log('Номер первого элемента равно ' + x + ' во второй половине ' + i);
       break;
    }

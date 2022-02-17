@@ -4,7 +4,7 @@ let arr = [1, 0, 2, 3, 1, 2, 3, 4, 4, 1];
 let check = false;
 
 for (let i = 1; i < arr.length; i++) {
-   if (arr[i - 1] == arr[i]) {
+   if (arr[i - 1] === arr[i]) {
       check = true;
       break;
    } else {

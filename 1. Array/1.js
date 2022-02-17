@@ -1,5 +1,4 @@
-
+// Дан массив ['a', 'b', 'c']. Добавьте ему в конец элементы 1, 2, 3.
 let arr = ['a', 'b', 'c'];
 arr.push(1, 2, 3);
-console.log(mas);
 console.log(arr);
