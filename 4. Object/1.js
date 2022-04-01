@@ -62,7 +62,6 @@ const hero = {
         this.damage += lvl * 2;
     },
 }
-hero.say()
 
 
 
